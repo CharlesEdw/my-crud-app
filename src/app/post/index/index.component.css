@@ -1,0 +1,36 @@
+.header-container {
+    max-width: 1150px;
+    margin: 20px auto;
+    overflow: auto;
+    min-height: 50px;
+    border: 1px solid rgb(119, 147, 170);
+    padding: 20px;
+    border-radius: 5px;
+  }
+header {
+    justify-content: right;
+    margin-bottom: 20px;
+}
+
+.container-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.party {
+    background: #f4f4f4;
+    margin: 5px;
+    padding: 5px 5px;
+  }
+  
+  .party.isorg {
+    border-left: 5px solid green;
+  }
+
+  .party h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+ 
